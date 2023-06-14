@@ -8,3 +8,8 @@ ComfyUI-VignetteNode
 - Center offset: vignette start offset from center
 - Color: optional vignette RGB tuple, use included RGBColorPicker
 - Use RGB Subtract: do pixel math instead of just interpolating images. e.g. with no color input, adds a white vignette. Input of (255,0,0) would subtract all red value from the image in the vignette area instead of adding a red vignette, and so on.
+
+
+![Demo](./workflow.jpeg)
+![FF0000 Vignette](./vignette_testing_00002_.png)
+![FF0000 Vignette Subtracted](./vignette_testing_00002_.png)
